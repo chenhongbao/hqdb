@@ -1,0 +1,52 @@
+[2018-12-12 13:34:41 709]
+java.lang.Exception: 加载JSON文件错误，输入流空引用或无数据
+	at dmkp.common.util.Common.LoadJSONObject(Common.java:85)
+	at flyingbot.hq.db.HQDBServer.InitLogger(HQDBServer.java:84)
+	at flyingbot.hq.db.HQDBServer.main(HQDBServer.java:104)
+[2018-12-12 13:34:41 876]去读日志服务配置失败
+[2018-12-12 13:35:05 36]
+java.lang.Exception: 加载JSON文件错误，输入流空引用或无数据
+	at dmkp.common.util.Common.LoadJSONObject(Common.java:85)
+	at flyingbot.hq.db.HQDBServer.InitLogger(HQDBServer.java:84)
+	at flyingbot.hq.db.HQDBServer.main(HQDBServer.java:104)
+[2018-12-12 13:35:05 57]去读日志服务配置失败
+[2018-12-12 13:38:00 792]
+java.lang.Exception: 加载JSON文件错误，输入流空引用或无数据
+	at dmkp.common.util.Common.LoadJSONObject(Common.java:85)
+	at flyingbot.hq.db.HQDBServer.InitLogger(HQDBServer.java:84)
+	at flyingbot.hq.db.HQDBServer.main(HQDBServer.java:104)
+[2018-12-12 13:38:00 811]去读日志服务配置失败
+[2018-12-12 14:20:05 831]
+java.lang.Exception: 加载JSON文件错误，输入流空引用或无数据
+	at dmkp.common.util.Common.LoadJSONObject(Common.java:85)
+	at flyingbot.hq.db.HQDBServer.InitLogger(HQDBServer.java:84)
+	at flyingbot.hq.db.HQDBServer.main(HQDBServer.java:104)
+[2018-12-12 14:20:05 847]去读日志服务配置失败
+[2018-12-12 14:27:39 486]
+java.lang.Exception: 加载JSON文件错误，输入流空引用或无数据
+	at dmkp.common.util.Common.LoadJSONObject(Common.java:85)
+	at flyingbot.hq.db.HQDBServer.InitLogger(HQDBServer.java:84)
+	at flyingbot.hq.db.HQDBServer.main(HQDBServer.java:104)
+[2018-12-12 14:27:39 501]去读日志服务配置失败
+[2018-12-12 14:35:42 1]
+java.lang.Exception: 加载JSON文件错误，输入流空引用或无数据
+	at dmkp.common.util.Common.LoadJSONObject(Common.java:85)
+	at flyingbot.hq.db.HQDBServer.InitLogger(HQDBServer.java:84)
+	at flyingbot.hq.db.HQDBServer.main(HQDBServer.java:104)
+[2018-12-12 14:35:42 16]去读日志服务配置失败
+[2018-12-12 14:38:33 86]
+java.lang.Exception: 加载JSON文件错误，输入流空引用或无数据
+	at dmkp.common.util.Common.LoadJSONObject(Common.java:85)
+	at flyingbot.hq.db.HQDBServer.InitLogger(HQDBServer.java:84)
+	at flyingbot.hq.db.HQDBServer.main(HQDBServer.java:104)
+[2018-12-12 14:38:33 143]去读日志服务配置失败
+[2018-12-12 14:39:34 385]
+java.lang.Exception: 加载JSON文件错误，输入流空引用或无数据
+	at dmkp.common.util.Common.LoadJSONObject(Common.java:85)
+	at flyingbot.hq.db.HQDBServer.InitLogger(HQDBServer.java:84)
+	at flyingbot.hq.db.HQDBServer.main(HQDBServer.java:104)
+[2018-12-12 14:40:06 855]
+java.lang.Exception: 加载JSON文件错误，输入流空引用或无数据
+	at dmkp.common.util.Common.LoadJSONObject(Common.java:85)
+	at flyingbot.hq.db.HQDBServer.InitLogger(HQDBServer.java:84)
+	at flyingbot.hq.db.HQDBServer.main(HQDBServer.java:104)
