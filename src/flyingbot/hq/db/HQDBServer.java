@@ -89,7 +89,7 @@ public class HQDBServer extends SocketDuplex {
 			port = obj.getInt("Port");
 			
 			// 创建日志对象
-			LOG = SocketLoggerFactory.GetInstance(clz.getClass().getCanonicalName(), ip, port);
+			LOG = SocketLoggerFactory.GetInstance(clz.getCanonicalName(), ip, port);
 		}
 		else {
 			Common.PrintException("去读日志服务配置失败");

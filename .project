@@ -20,10 +20,5 @@
 			<type>2</type>
 			<location>D:/Workspace/oepe/com/src</location>
 		</link>
-		<link>
-			<name>log_src</name>
-			<type>2</type>
-			<location>D:/Workspace/oepe/logsvr/src</location>
-		</link>
 	</linkedResources>
 </projectDescription>
