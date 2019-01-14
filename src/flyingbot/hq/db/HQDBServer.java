@@ -120,8 +120,8 @@ public class HQDBServer extends SocketDuplex {
 			Common.GetSingletonExecSvc().execute(adaptor);
 			
 			// 监听端口
-			System.out.println("蜡烛线服务器启动，在端口" + port + "监听。");
-			LOG.info("蜡烛线服务器启动，在端口" + port + "监听。");
+			System.out.println("HQDB is listening on port: " + port);
+			LOG.info("HQDB is listening on port: " + port);
 			
 			while (true) {
 				// 接收连接
