@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: netty-all-4.1.30.Final.jar mysql-connector-java-8.0.12.jar
+  tyrus-standalone-client-1.15.jar
+Main-Class: flyingbot.it.hq.db.HQDBServer
+
