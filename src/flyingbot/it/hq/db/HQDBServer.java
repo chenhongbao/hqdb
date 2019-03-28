@@ -12,6 +12,7 @@ import java.io.InputStream;
 import java.net.InetSocketAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.nio.charset.StandardCharsets;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
@@ -56,7 +57,7 @@ public class HQDBServer extends SocketDuplex {
 	@Override
 	public void OnStream(byte[] Data) {
 		try {
-			String text = new String(Data, 0, Data.length, "UTF-8");
+            String text = new String(Data, 0, Data.length, StandardCharsets.UTF_8);
 			Candle c = Candle.Parse(new JSONObject(text));
 			adaptorDB.insertCandle(c);
 		} catch (Exception e) {
@@ -104,7 +105,6 @@ public class HQDBServer extends SocketDuplex {
 			Common.GetSingletonExecSvc().execute(adaptor);
 
             // logging
-			System.out.println("HQDB is listening on port: " + port);
 			LOG.info("HQDB is listening on port: " + port);
 
 			while (true) {
