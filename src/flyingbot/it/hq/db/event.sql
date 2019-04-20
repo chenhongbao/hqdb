@@ -19,7 +19,7 @@ CREATE
 			SET @OutDir = REPLACE(@OutDir, '\\', "/");
 			
 			-- Save candles
-			SET @SqlText = CONCAT("SELECT * FROM candledb.candle_01 ORDER BY `DBID` ASC LIMIT ",
+			SET @SqlText = CONCAT("SELECT * FROM candledb.candle_01 ORDER BY `SerialNo` ASC LIMIT ",
 				@toDelete,
 				" INTO OUTFILE '",
 				@OutDir,
@@ -32,7 +32,7 @@ CREATE
 			EXECUTE SqlStat;
 			
 			-- Delete candles from database
-			SET @SqlText = CONCAT("DELETE FROM candledb.candle_01 ORDER BY `DBID` ASC LIMIT ", @toDelete);
+			SET @SqlText = CONCAT("DELETE FROM candledb.candle_01 ORDER BY `SerialNo` ASC LIMIT ", @toDelete);
 			
 			-- Execute query
 			PREPARE SqlStat FROM @SqlText;
