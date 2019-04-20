@@ -2,7 +2,7 @@ CREATE DATABASE candledb
 	CHARACTER SET utf8mb4
     COLLATE utf8mb4_unicode_ci;
     
-CREATE TABLE `candle_tmp` (
+CREATE TABLE `candle_01` (
   `ProductID` char(16) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'product id, the first few characters of instrument id',
   `InstrumentID` char(32) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'instrument id',
   `Period` smallint(6) DEFAULT NULL COMMENT 'Period in minutes, for day it is 1440(mins)',
